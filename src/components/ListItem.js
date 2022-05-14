@@ -1,7 +1,11 @@
 import React from 'react'
 
-export default function ListItem({data}) {
+/**
+ * Компонент ListItem формирует элементы списка
+ */
+
+export default function ListItem({children, ...props}) {
   return (
-    <li className="col">{data.logo}{data.title}</li>
+    <li {...props}>{children}</li>
   )
 }
