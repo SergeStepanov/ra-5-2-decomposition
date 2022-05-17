@@ -2,6 +2,7 @@
   "name": "ra-5-2-decomposition",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sergestepanov.github.io/ra-5-2-decomposition/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
